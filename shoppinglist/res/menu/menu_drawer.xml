@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/log_in"
+        android:title="Log in"
+        android:visible="true"/>
+    <item
+        android:id="@+id/Sign_Up"
+        android:title="Sign up"
+        android:visible="true"/>
+    <item
+        android:id="@+id/log_out"
+        android:title="Log out"
+        android:visible="false"/>
+
+</menu>

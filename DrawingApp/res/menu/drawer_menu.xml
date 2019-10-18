@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/circle_id"
+            android:checked="true"
+            android:icon="@drawable/ic_emoticon"
+            android:title="Circle"/>
+        <item android:id="@+id/line_id"
+            android:icon="@drawable/ic_done"
+            android:title="Line"/>
+        <item android:id="@+id/Polyline_id"
+            android:icon="@drawable/ic_done"
+            android:title="Polyline"/>
+    </group>
+    <item android:title="Colors">
+        <menu>
+            <item android:id="@+id/color_green"
+                android:title="green"
+                android:icon="@color/green"/>
+            <item android:id="@+id/color_red"
+                android:title="red"
+                android:icon="@color/red"/>
+            <item android:id="@+id/color_blue"
+                android:title="blue"
+                android:icon="@color/blue"/>
+        </menu>
+    </item>
+
+</menu>
